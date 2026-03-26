@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VeritasPad</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>VeritasPad</h1>
+      <div class="status-row">
+        <span id="network-status">offline</span>
+        <span id="sync-status">0 queued</span>
+      </div>
+    </header>
+
+    <main>
+      <aside>
+        <button id="new-note">+ New note</button>
+        <ul id="notes"></ul>
+      </aside>
+
+      <section>
+        <input id="title" placeholder="Note title" />
+        <textarea id="content" placeholder="Write your note..."></textarea>
+      </section>
+    </main>
+
+    <template id="note-item">
+      <li class="note-item"></li>
+    </template>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
