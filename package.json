@@ -1,0 +1,10 @@
+{
+  "name": "veritaspad",
+  "version": "1.0.0",
+  "description": "Offline-first collaborative note-taking app with server-authoritative consistency",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}
